@@ -1,0 +1,30 @@
+p {
+  font-weight: 300;
+  margin-top: 0px;
+}
+h1 {
+  font-size: 52px;
+}
+h2 {
+  margin-top: 10px;
+  font-weight: 300;
+}
+.weather-app {
+  margin-top: 20px;
+  padding: 30px;
+  max-width: 600px;
+  border: 1px solid #bcbcbc;
+  border-radius: 10px;
+}
+.card-body .row {
+  text-align: center;
+  padding: 5px;
+}
+
+.card-header {
+  font-weight: 300;
+}
+
+.temperature {
+  font-size: 52px;
+}

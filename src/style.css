@@ -28,3 +28,7 @@ h2 {
 .temperature {
   font-size: 52px;
 }
+
+.time {
+  opacity: 0.6;
+}

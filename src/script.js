@@ -60,7 +60,7 @@ function displayCity(response) {
 }
 function searchCity(city) {
   let apiKey = "d64403a59d7be699c0e3c274cba6ea07";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`;
   axios.get(apiUrl).then(displayCity);
 }
 function citySearch(event) {
@@ -72,7 +72,7 @@ function getLocalTemp(position) {
   let lat = position.coords.latitude;
   let lon = position.coords.longitude;
   let apiKey = "d64403a59d7be699c0e3c274cba6ea07";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
   axios.get(apiUrl).then(displayLocalTemp);
 }
 function getLocal(event) {

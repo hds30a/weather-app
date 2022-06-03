@@ -32,3 +32,9 @@ h2 {
 .time {
   opacity: 0.6;
 }
+
+.footer {
+  padding-top: 20px;
+  font-family: monospace;
+  text-align: right;
+}

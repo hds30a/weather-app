@@ -6,13 +6,15 @@ h1 {
   font-size: 52px;
 }
 h2 {
-  margin-top: 10px;
+  display: inline;
   font-weight: 300;
 }
 .weather-app {
+  display: block;
+  margin: 0 auto;
   margin-top: 20px;
   padding: 30px;
-  max-width: 600px;
+  max-width: 500px;
   border: 1px solid #bcbcbc;
   border-radius: 10px;
 }

@@ -9,14 +9,18 @@ h2 {
   display: inline;
   font-weight: 300;
 }
+body {
+  background: linear-gradient(180deg, #675aff 0%, #b9d5ff 100%);
+}
+
 .weather-app {
   display: block;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto;
   padding: 30px;
   max-width: 500px;
   border: 1px solid #bcbcbc;
   border-radius: 10px;
+  background: #fff;
 }
 .card-body .row {
   text-align: center;

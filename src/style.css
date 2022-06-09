@@ -2,9 +2,7 @@ p {
   font-weight: 300;
   margin-top: 0px;
 }
-h1 {
-  font-size: 52px;
-}
+
 h2 {
   display: inline;
   font-weight: 300;
@@ -12,7 +10,11 @@ h2 {
 body {
   background: linear-gradient(180deg, #675aff 0%, #b9d5ff 100%);
 }
-
+.weather-main {
+  list-style: none;
+  padding: 0;
+  font-weight: 300;
+}
 .weather-app {
   display: block;
   margin: 20px auto;
@@ -24,7 +26,7 @@ body {
 }
 .card-body .row {
   text-align: center;
-  padding: 5px;
+  padding: 0;
 }
 
 .card-header {
@@ -34,9 +36,12 @@ body {
 .temperature {
   font-size: 52px;
 }
-
+.units {
+  text-align: right;
+}
 .time {
   opacity: 0.6;
+  font-size: small;
 }
 
 .footer {

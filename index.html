@@ -47,12 +47,12 @@
           </div>
         </form>
         <h2>Memphis</h2>
-        <span class="time" id="date"></span>
+        <div class="time">last updated <span id="date"></span></div>
         <div class="row">
-          <div class="col-8">
+          <div class="col-8"><h1>🌙</h1></div>
+          <div class="col-4">
             <span class="temperature" id="current-temp">85º</span>
           </div>
-          <div class="col-4"><h1>🌙</h1></div>
         </div>
         <div class="units">
           <span id="fahrenheit-link">
@@ -61,7 +61,11 @@
           | <span id="celsius-link"><a href="#">C</a></span>
         </div>
 
-        <p>H: 73º L: 62º</p>
+        <ul class="weather-main">
+          <li>H: <span id="temp-max"></span> L: <span id="temp-min"></span></li>
+          <li>Humidty: <span id="humidity"></span></li>
+          <li>Wind: <span id="wind"></span></li>
+        </ul>
         <div class="card">
           <div class="card-body">
             <div class="row">

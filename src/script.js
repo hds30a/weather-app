@@ -57,6 +57,18 @@ function displayCity(response) {
   document.querySelector("#current-temp").innerHTML = `${Math.round(
     response.data.main.temp
   )}º`;
+  document.querySelector("#temp-max").innerHTML = `${Math.round(
+    response.data.main.temp_max
+  )}º`;
+  document.querySelector("#temp-min").innerHTML = `${Math.round(
+    response.data.main.temp_min
+  )}º`;
+  document.querySelector(
+    "#humidity"
+  ).innerHTML = `${response.data.main.humidity}%`;
+  document.querySelector("#wind").innerHTML = `${Math.round(
+    response.data.wind.speed
+  )}mph`;
 }
 function searchCity(city) {
   let apiKey = "d64403a59d7be699c0e3c274cba6ea07";
@@ -85,3 +97,5 @@ currentButton.addEventListener("click", getLocal);
 
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", citySearch);
+
+searchCity("Nashville");

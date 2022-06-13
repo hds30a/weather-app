@@ -44,6 +44,10 @@ body {
   font-size: small;
 }
 
+.weather-description {
+  font-weight: 500;
+}
+
 .footer {
   padding-top: 20px;
   font-family: monospace;

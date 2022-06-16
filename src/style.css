@@ -10,6 +10,10 @@ h2 {
 body {
   background: linear-gradient(180deg, #675aff 0%, #b9d5ff 100%);
 }
+
+.container {
+  display: flex;
+}
 .weather-main {
   list-style: none;
   padding: 0;
@@ -24,30 +28,40 @@ body {
   border-radius: 10px;
   background: #fff;
 }
-.card-body .row {
-  text-align: center;
-  padding: 0;
-}
-
-.card-header {
-  font-weight: 300;
-}
 
 .temperature {
   font-size: 52px;
 }
-.units {
-  text-align: right;
-}
+
 .time {
   opacity: 0.6;
   font-size: small;
 }
 
 .weather-description {
+  font-size: 20px;
   font-weight: 500;
 }
 
+.weather-forecast {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
 .footer {
   padding-top: 20px;
   font-family: monospace;

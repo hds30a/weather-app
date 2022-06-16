@@ -56,15 +56,17 @@
               id="icon"
             />
           </div>
-          <div class="col-4">
+          <div class="col-2">
             <span class="temperature" id="current-temp">85º</span>
           </div>
-        </div>
-        <div class="units">
-          <span id="fahrenheit-link">
-            <a href="#">F</a>
-          </span>
-          | <span id="celsius-link"><a href="#">C</a></span>
+          <div class="col-2">
+            <div class="units">
+              <span id="fahrenheit-link">
+                <a href="#">F</a>
+              </span>
+              | <span id="celsius-link"><a href="#">C</a></span>
+            </div>
+          </div>
         </div>
 
         <ul class="weather-main">
@@ -73,76 +75,9 @@
           <li>Humidty: <span id="humidity"></span></li>
           <li>Wind: <span id="wind"></span></li>
         </ul>
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col"><strong>Now</strong></div>
-              <div class="col">11pm</div>
-              <div class="col">12am</div>
-              <div class="col">1am</div>
-              <div class="col">2am</div>
-              <div class="col">3am</div>
-            </div>
-            <div class="row">
-              <div class="col">🌙</div>
-              <div class="col">🌙</div>
-              <div class="col">🌙</div>
-              <div class="col">🌙</div>
-              <div class="col">🌙</div>
-              <div class="col">🌙</div>
-            </div>
-            <div class="row">
-              <div class="col"><strong>63º</strong></div>
-              <div class="col">62º</div>
-
-              <div class="col">61º</div>
-              <div class="col">60º</div>
-              <div class="col">59º</div>
-              <div class="col">59º</div>
-            </div>
-          </div>
-        </div>
+        <div class="weather-forecast" id="forecast"></div>
         <br />
-        <div class="card">
-          <div class="card-header">5-Day Forecast</div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-4">Mon 09</div>
-                <div class="col-4"><strong>83º</strong>/63º</div>
-                <div class="col-4">🌤</div>
-              </div>
-            </li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col">Tues 10</div>
-                <div class="col"><strong>87º</strong>/64º</div>
-                <div class="col">🌤</div>
-              </div>
-            </li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col">Wed 11</div>
-                <div class="col"><strong>87º</strong>/64º</div>
-                <div class="col">⛅️</div>
-              </div>
-            </li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col">Thurs 12</div>
-                <div class="col"><strong>88º</strong>/62º</div>
-                <div class="col">☀️</div>
-              </div>
-            </li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col">Fri 13</div>
-                <div class="col"><strong>84º</strong>/63º</div>
-                <div class="col">🌤</div>
-              </div>
-            </li>
-          </ul>
-        </div>
+
         <div class="footer">
           Open sourced on
           <a

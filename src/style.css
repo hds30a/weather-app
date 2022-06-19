@@ -68,7 +68,8 @@ body {
   opacity: 0.5;
 }
 .footer {
-  padding-top: 20px;
+  margin-top: 20px;
   font-family: monospace;
+  font-size: 13px;
   text-align: right;
 }

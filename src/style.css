@@ -13,6 +13,7 @@ body {
 
 .container {
   display: flex;
+  background-attachment: fixed;
 }
 .weather-main {
   list-style: none;
@@ -31,6 +32,11 @@ body {
 
 .temperature {
   font-size: 52px;
+  text-align: right;
+}
+
+.units {
+  opacity: 0.7;
 }
 
 .time {
@@ -44,7 +50,6 @@ body {
 }
 
 .weather-forecast {
-  margin: 0 auto;
   padding: 20px;
   border: 1px solid #bcbcbc;
   border-radius: 10px;
